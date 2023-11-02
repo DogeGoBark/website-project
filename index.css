@@ -1,0 +1,33 @@
+/* background color for my pages */
+body {background-color: #d3d3d3;}
+/* navbar design */
+.navbar {
+    background-color:#ffffff;
+    display: flex; 
+    justify-content: space-evenly; 
+    padding: 5px; 
+    align-items: center;
+}
+
+/* changing color when hovering over a link */
+a:hover{
+    color: red; 
+    text-decoration: underline;
+}
+/* space out the links on the navbar */
+.countries{
+    display: flex; 
+    gap: 200px;
+}
+.company{
+    margin-right: 750px;
+}
+/* decoration for the title, paragraph and image */
+
+.agency {display: flex; justify-content: center; align-items: center; margin-top: 50px;}
+.title {display: flex; justify-content: center;text-decoration: underline;}
+.intro {display: flex; max-width: 1000px;  margin:0 auto;}
+p {font-size: 20px; font-family: 'Raleway', sans-serif; color: #262626;}
+
+/* socials navbar  */
+.socials {background-color:white; display: flex; justify-content: space-evenly; padding: 5px; }
